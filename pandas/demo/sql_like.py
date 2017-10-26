@@ -38,11 +38,14 @@ print student3
 t = student3.groupby(['Age', 'Sex']).mean()
 t1 = student3.groupby(['Age', 'Sex']).agg([np.mean, np.median])
 
+print t
+print t1
+
 # order
 series = pd.Series(np.array(np.random.randint(1, 20, 10)))
 print series.sort_values()
 print series.sort_index()
-print student3.sort_values(by=['Sex', 'Age'])
+print student3.sort_values(by=['Sex', 'Age'], ascending=True)
 print student3.sort_values(by=['Age', 'Sex'])
 
 # join
