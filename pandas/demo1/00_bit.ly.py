@@ -46,8 +46,37 @@ tab = df_sale_order_visitors_mini.merge(sale_orders_mini,left_on='order_id',righ
 
 tab_paid = tab[tab["total_paid"] > 0].sort_values(by=['total_paid'], ascending=False)
 tab_1 = pd.pivot_table(tab_paid,index=['lang'],values=['total_paid'],aggfunc=[np.sum,np.mean,np.median])
+print "tab_1"
 print tab_1
-tab_1.sort_values(by=['sum/total_paid'], ascending=False).plot(kind="barh")
+# tab_1.sort_values(by=['sum/total_paid'], ascending=False).plot(kind="barh")
+
+loc_counts = df_sale_order_visitors_mini['location'].value_counts()
+loc_counts[:10].plot(kind='barh',rot=0)
+os_counts = df_sale_order_visitors_mini['os'].value_counts()
+os_counts[:10].plot(kind='barh',rot=0)
+
+os = np.where(df_sale_order_visitors_mini['os'].str.contains('Windows'),'Windows','Not Windows')
+by_loc_os = df_sale_order_visitors_mini.groupby(['location',os])
+agg_count_by_loc_os = by_loc_os.size().unstack().fillna(0)
+print "agg_count_by_loc_os"
+print agg_count_by_loc_os
+
+indexer = agg_count_by_loc_os.sum(1).argsort()
+print "indexer"
+print indexer
+agg_count_by_loc_os.plot(kind='barh')
+count_subset = agg_count_by_loc_os.take(indexer)[-10:]
+print "count_subset"
+print count_subset
+count_subset.plot(kind="barh",stacked=True)
+
+temp = count_subset.sum(1)
+print temp
+
+normed_subset = count_subset.div(count_subset.sum(1),axis=0)
+normed_subset.plot(kind="barh",stacked=True)
+
+c = agg_count_by_loc_os.columns.values
 pass
 
 

@@ -13,5 +13,7 @@ __version__ = '1.0'
 DB_CONFIG = {'host': 'localhost', 'port': 3306, 'user': 'liuchao', 'password': '1234', 'db': 'jollyhers',
         'charset': 'utf8mb4'}
 
+pydata_book_datasets_path = "/home/liuchao/Documents/PycharmProject/NextIdea/pydata-book/datasets"
+
 
 
