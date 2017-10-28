@@ -1,244 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34cae5d7-440b-415b-8932-d558e564fec7" name="Default" comment="babynames &amp; ipython">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/00_bit.ly.py" afterPath="$PROJECT_DIR$/Python_for_Data_Analysis/00_bit.ly.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/01_movielens.py" afterPath="$PROJECT_DIR$/Python_for_Data_Analysis/01_movielens.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/02_babynames.py" afterPath="$PROJECT_DIR$/Python_for_Data_Analysis/02_babynames.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/__init__.py" afterPath="$PROJECT_DIR$/Python_for_Data_Analysis/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/config.py" afterPath="$PROJECT_DIR$/Python_for_Data_Analysis/config.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/read_db.py" afterPath="$PROJECT_DIR$/Python_for_Data_Analysis/read_db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book" afterPath="$PROJECT_DIR$/../pydata-book" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/NationalReadMe.pdf" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/NationalReadMe.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads.dbf" afterPath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads.dbf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads.sbn" afterPath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads.sbn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads.sbx" afterPath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads.sbx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads.shp" afterPath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads.shp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads.shx" afterPath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads.shx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads_sample.jpg" afterPath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads_sample.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/movielens/movies.dat" afterPath="$PROJECT_DIR$/../pydata-book/datasets/movielens/movies.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/ex1.xlsx" afterPath="$PROJECT_DIR$/../pydata-book/examples/ex1.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/stinkbug.png" afterPath="$PROJECT_DIR$/../pydata-book/examples/stinkbug.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/yahoo_price.pkl" afterPath="$PROJECT_DIR$/../pydata-book/examples/yahoo_price.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/yahoo_volume.pkl" afterPath="$PROJECT_DIR$/../pydata-book/examples/yahoo_volume.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pandas.iml" afterPath="$PROJECT_DIR$/.idea/pandas.iml" />
+    <list default="true" id="34cae5d7-440b-415b-8932-d558e564fec7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/__init__.py" afterPath="$PROJECT_DIR$/demo/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/config.py" afterPath="$PROJECT_DIR$/demo/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/data_structure.py" afterPath="$PROJECT_DIR$/demo/data_structure.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/index.py" afterPath="$PROJECT_DIR$/demo/index.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/missing_data.py" afterPath="$PROJECT_DIR$/demo/missing_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/pivot.py" afterPath="$PROJECT_DIR$/demo/pivot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/query.py" afterPath="$PROJECT_DIR$/demo/query.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/read_db.py" afterPath="$PROJECT_DIR$/demo/read_db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/sql_like.py" afterPath="$PROJECT_DIR$/demo/sql_like.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/statistics.py" afterPath="$PROJECT_DIR$/demo/statistics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/.gitignore" afterPath="$PROJECT_DIR$/../pydata-book/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/../pydata-book/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/.idea/misc.xml" afterPath="$PROJECT_DIR$/../pydata-book/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/.idea/modules.xml" afterPath="$PROJECT_DIR$/../pydata-book/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/.idea/pydata-book.iml" afterPath="$PROJECT_DIR$/../pydata-book/.idea/pydata-book.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../pydata-book/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/COPYING" afterPath="$PROJECT_DIR$/../pydata-book/COPYING" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/README.md" afterPath="$PROJECT_DIR$/../pydata-book/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/appa.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/appa.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch02.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch02.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch03.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch03.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch04.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch04.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch05.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch05.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch06.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch06.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch07.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch07.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch08.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch08.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch09.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch09.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch10.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch10.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch11.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch11.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch12.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch12.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch13.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch13.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/ch14.ipynb" afterPath="$PROJECT_DIR$/../pydata-book/ch14.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1880.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1880.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1881.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1881.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1882.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1882.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1883.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1883.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1884.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1884.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1885.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1885.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1886.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1886.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1887.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1887.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1888.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1888.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1889.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1889.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1890.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1890.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1891.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1891.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1892.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1892.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1893.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1893.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1894.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1894.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1895.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1895.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1896.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1896.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1897.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1897.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1898.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1898.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1899.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1899.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1900.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1900.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1901.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1901.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1902.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1902.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1903.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1903.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1904.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1904.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1905.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1905.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1906.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1906.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1907.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1907.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1908.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1908.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1909.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1909.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1910.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1910.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1911.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1911.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1912.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1912.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1913.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1913.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1914.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1914.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1915.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1915.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1916.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1916.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1917.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1917.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1918.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1918.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1919.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1919.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1920.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1920.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1921.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1921.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1922.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1922.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1923.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1923.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1924.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1924.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1925.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1925.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1926.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1926.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1927.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1927.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1928.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1928.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1929.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1929.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1930.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1930.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1931.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1931.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1932.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1932.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1933.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1933.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1934.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1934.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1935.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1935.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1936.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1936.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1937.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1937.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1938.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1938.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1939.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1939.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1940.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1940.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1941.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1941.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1942.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1942.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1943.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1943.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1944.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1944.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1945.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1945.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1946.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1946.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1947.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1947.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1948.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1948.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1949.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1949.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1950.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1950.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1951.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1951.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1952.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1952.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1953.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1953.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1954.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1954.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1955.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1955.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1956.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1956.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1957.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1957.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1958.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1958.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1959.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1959.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1960.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1960.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1961.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1961.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1962.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1962.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1963.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1963.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1964.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1964.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1965.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1965.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1966.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1966.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1967.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1967.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1968.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1968.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1969.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1969.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1970.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1970.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1971.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1971.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1972.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1972.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1973.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1973.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1974.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1974.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1975.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1975.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1976.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1976.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1977.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1977.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1978.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1978.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1979.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1979.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1980.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1980.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1981.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1981.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1982.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1982.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1983.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1983.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1984.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1984.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1985.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1985.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1986.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1986.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1987.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1987.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1988.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1988.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1989.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1989.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1990.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1990.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1991.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1991.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1992.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1992.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1993.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1993.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1994.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1994.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1995.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1995.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1996.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1996.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1997.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1997.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1998.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1998.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1999.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob1999.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2000.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2000.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2001.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2001.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2002.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2002.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2003.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2003.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2004.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2004.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2005.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2005.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2006.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2006.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2007.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2007.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2008.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2008.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2009.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2009.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2010.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/babynames/yob2010.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/bitly_usagov/example.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/bitly_usagov/example.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/fec/P00000001-ALL.csv" afterPath="$PROJECT_DIR$/../pydata-book/datasets/fec/P00000001-ALL.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/haiti/Haiti.csv" afterPath="$PROJECT_DIR$/../pydata-book/datasets/haiti/Haiti.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads.prj" afterPath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads.prj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads_README.txt" afterPath="$PROJECT_DIR$/../pydata-book/datasets/haiti/PortAuPrince_Roads/PortAuPrince_Roads_README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/movielens/README" afterPath="$PROJECT_DIR$/../pydata-book/datasets/movielens/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/movielens/ratings.dat" afterPath="$PROJECT_DIR$/../pydata-book/datasets/movielens/ratings.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/movielens/users.dat" afterPath="$PROJECT_DIR$/../pydata-book/datasets/movielens/users.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_LIBUS.xml" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_LIBUS.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_LIBUS.xsd" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_LIBUS.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_LIRR.xml" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_LIRR.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_LIRR.xsd" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_LIRR.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_MNR.xml" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_MNR.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_MNR.xsd" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_MNR.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_MTABUS.xml" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_MTABUS.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_MTABUS.xsd" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_MTABUS.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_NYCT.xml" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_NYCT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_NYCT.xsd" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_NYCT.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_TBTA.xml" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_TBTA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_TBTA.xsd" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/Performance_TBTA.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/parse.py" afterPath="$PROJECT_DIR$/../pydata-book/datasets/mta_perf/parse.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/titanic/genderclassmodel.csv" afterPath="$PROJECT_DIR$/../pydata-book/datasets/titanic/genderclassmodel.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/titanic/gendermodel.csv" afterPath="$PROJECT_DIR$/../pydata-book/datasets/titanic/gendermodel.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/titanic/test.csv" afterPath="$PROJECT_DIR$/../pydata-book/datasets/titanic/test.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/titanic/train.csv" afterPath="$PROJECT_DIR$/../pydata-book/datasets/titanic/train.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/datasets/usda_food/database.json" afterPath="$PROJECT_DIR$/../pydata-book/datasets/usda_food/database.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/array_ex.txt" afterPath="$PROJECT_DIR$/../pydata-book/examples/array_ex.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/csv_mindex.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/csv_mindex.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/ex1.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/ex1.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/ex2.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/ex2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/ex3.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/ex3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/ex3.txt" afterPath="$PROJECT_DIR$/../pydata-book/examples/ex3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/ex4.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/ex4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/ex5.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/ex5.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/ex6.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/ex6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/ex7.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/ex7.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/example.json" afterPath="$PROJECT_DIR$/../pydata-book/examples/example.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/fdic_failed_bank_list.html" afterPath="$PROJECT_DIR$/../pydata-book/examples/fdic_failed_bank_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/ipython_bug.py" afterPath="$PROJECT_DIR$/../pydata-book/examples/ipython_bug.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/macrodata.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/macrodata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/out.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/out.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/segismundo.txt" afterPath="$PROJECT_DIR$/../pydata-book/examples/segismundo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/spx.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/spx.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/stock_px.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/stock_px.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/stock_px_2.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/stock_px_2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/test_file.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/test_file.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/tips.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/tips.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/tseries.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/tseries.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pydata-book/examples/volume.csv" afterPath="$PROJECT_DIR$/../pydata-book/examples/volume.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -487,6 +251,14 @@
       <option name="presentableId" value="Default" />
       <updated>1508894262621</updated>
     </task>
+    <task id="LOCAL-00001" summary="babynames &amp; ipython">
+      <created>1509185564215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509185564215</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -530,6 +302,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="babynames &amp; ipython" />
     <option name="LAST_COMMIT_MESSAGE" value="babynames &amp; ipython" />
   </component>
