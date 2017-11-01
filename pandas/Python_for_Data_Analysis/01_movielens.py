@@ -7,6 +7,7 @@ base Info
     movielens
 """
 import numpy as np, pandas as pd
+from numpy.random import randn
 
 __author__ = 'liuchao'
 __version__ = '1.0'

@@ -23,7 +23,7 @@ sql = "select * from sale_orders"
 df = pd.read_sql_query(sql, conn)
 
 #.read_sql_table()
-DB_CONNECT_STRING = 'mysql+mysqldb://liuchao:1234@localhost/jollyhers?charset=utf8mb4'
+DB_CONNECT_STRING = 'mysql+pymysql://liuchao:1234@localhost/jollyhers?charset=utf8mb4'
 engine = create_engine(DB_CONNECT_STRING,echo=True)
 # DBSession = sessionmaker(bind=engine)
 table_name = "sale_orders"
