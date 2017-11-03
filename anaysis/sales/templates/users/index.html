@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'users/css/style.css' %}" />
+    <script type="text/javascript" src="{% static 'users/js/jquery-3.2.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'users/js/users.js' %}"></script>
+    <script type="text/javascript" src="{% static 'users/js/base.js' %}"></script>
+
+
+</head>
+<body>
+    
+    <div><button onclick="fun()">ajax</button></div>
+    <!--<div><button onclick="get_dp_memberNum()">get_dp_memberNum</button></div>-->
+    <!--<div><button onclick="get_ta_memberNum()">get_ta_memberNum</button></div>-->
+    <!--<div><button onclick="get_or_memberNum()">get_or_memberNum</button></div>-->
+    <!--<div><button onclick="get_mfw_memberNum()">get_mfw_memberNum</button></div>-->
+    <div><button onclick="get_or_favorite()">get_or_favorite</button></div>
+    <div><button onclick="get_dp_location()">get_dp_location</button></div>
+    <div><button onclick="get_ta_location()">get_ta_location</button></div>
+    <div><button onclick="get_or_location()">get_or_location</button></div>
+    <div><button onclick="get_mfw_location()">get_mfw_location</button></div>
+    <div><button onclick="get_all_memberNum()">get_all_memberNum</button></div>
+    <div><button onclick="get_all_sex()">get_all_sex</button> </div>
+    <div><button onclick="get_dp_province()">get_dp_province</button></div>
+    <div><button onclick="get_mfw_province()">get_mfw_province</button></div>
+</body>
+</html>
