@@ -6,5 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pydata-book" />
     <orderEntry type="module" module-name="Jollyhers" />
+    <orderEntry type="module" module-name="maxims" />
+    <orderEntry type="module" module-name="anaysis" />
   </component>
 </module>

@@ -40,7 +40,7 @@ sale_orders = sale_orders[['id', 'status', 'payment_status', 'subtotal', 'create
 sale_orders_products = sale_orders_products[
     ['id', 'order_id', 'sku', 'product_id', 'name', 'price', 'quantity']]
 
-cart = cart[['id', 'product_id', 'sku_id','created_at']]
+cart = cart[['id', 'product_id', 'sku_id', 'quantity', 'created_at']]
 cart['created_at'] = cart['created_at'].astype('datetime64[ns]')
 
 catalog_products = catalog_products[['id', 'category_id', 'created_by', 'created_at']]
@@ -52,12 +52,11 @@ catalog_product_items = catalog_product_items[['id', 'product_id', 'sku', 'price
 # time_begin = datetime.datetime.strptime('2017-09-10 00:00:00', '%Y-%m-%d %H:%M:%S')
 # time_end = datetime.datetime.strptime('2017-09-15 23:59:59', '%Y-%m-%d %H:%M:%S')
 
-time_begin = '2017-09-10 00:00:00'
-time_end = '2017-09-15 23:59:59'
+time_begin = '2017-09-17 00:00:00'
+time_end = '2017-09-23 23:59:59'
 cart_1 = cart.set_index(['created_at'], drop=False)
 product_count_in_cart = cart_1[time_begin:time_end]
-product_count_in_cart = product_count_in_cart[['product_id', 'sku_id']].groupby(by='product_id').count()
-product_count_in_cart.columns = ['num']
+product_count_in_cart = product_count_in_cart[['product_id', 'quantity']].groupby(by='product_id').sum()
 print product_count_in_cart
 
 
@@ -68,8 +67,7 @@ sale_orders_info.set_index(['created_at'], inplace=True)
 # print sale_orders_info
 # print sale_orders_info.index
 product_count_in_order = sale_orders_info[time_begin:time_end]
-product_count_in_order = product_count_in_order[['product_id', 'sku']].groupby(by='product_id').count()
-product_count_in_order.columns = ['num']
+product_count_in_order = product_count_in_order[['product_id', 'quantity']].groupby(by='product_id').sum()
 print product_count_in_order
 
 # result
@@ -88,14 +86,24 @@ sale_orders_info_pay['created_at'] = sale_orders_info_pay['created_at'].astype('
 sale_orders_info_pay['updated_at'] = sale_orders_info_pay['updated_at'].astype('datetime64[ns]')
 sale_orders_info_pay.set_index(['updated_at'], inplace=True)
 
-time_pay_begin = '2017-09-10 00:00:00'
-time_pay_end = '2017-09-15 23:59:59'
-product_count_in_pay = sale_orders_info_pay[(sale_orders_info_pay['status'] == 'Paid')|(sale_orders_info_pay['status'] == 'Paid Processing')|(sale_orders_info_pay['status'] == 'Shipping')]
-
+time_pay_begin = '2017-09-17 00:00:00'
+time_pay_end = '2017-09-23 23:59:59'
 #result: in pay
-product_count_in_pay = product_count_in_pay[time_pay_begin:time_pay_end]
-print product_count_in_pay
+
+product_count_in_paying = sale_orders_info_pay[(sale_orders_info_pay['status'] == 'Paid')|(sale_orders_info_pay['status'] == 'Paid Processing')|(sale_orders_info_pay['status'] == 'Shipping')]
+product_count_in_paying = product_count_in_paying[time_pay_begin:time_pay_end][['product_id', 'quantity']].groupby(by='product_id').sum()
+print product_count_in_paying
 
 #result: in paid
-# TODO
+time_paid_begin = '2017-09-17 00:00:00'
+time_paid_end = '2017-09-23 23:59:59'
+product_count_in_paid = sale_orders_info_pay[time_paid_begin:time_paid_end]
+product_count_in_paid = product_count_in_paid[(product_count_in_paid['payment_status'] == 'Completed')]
+
+# product_count_in_paid = product_count_in_paid[['product_id', 'quantity']].groupby(by='product_id').sum()
+
+product_sales_count = pd.pivot_table(product_count_in_paid,values=['quantity','subtotal'],index='product_id',aggfunc=np.sum)
+product_sales_count_1 = product_count_in_paid[['product_id', 'subtotal']].groupby(by='product_id').sum()
+
+
 pass
