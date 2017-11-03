@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34cae5d7-440b-415b-8932-d558e564fec7" name="Default" comment="Jollyhers-Django">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/.idea/anaysis.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/anaysis/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/anaysis/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/anaysis/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/anaysis/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/sales/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/sales/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/sales/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/sales/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/sales/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/sales/service.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/sales/templates/users/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/sales/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/sales/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../anaysis/sales/views.py" />
+    <list default="true" id="34cae5d7-440b-415b-8932-d558e564fec7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -425,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509671430707</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="anaysis v1.0">
+      <created>1509697042118</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1509697042118</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -512,7 +499,8 @@
     <MESSAGE value="product_count_added_in_cart" />
     <MESSAGE value="in specific period,product turned into pay status" />
     <MESSAGE value="Jollyhers-Django" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jollyhers-Django" />
+    <MESSAGE value="anaysis v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="anaysis v1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -833,6 +821,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -848,6 +837,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -863,6 +853,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -902,6 +893,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#641#682#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
