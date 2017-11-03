@@ -23,7 +23,7 @@ def ajax(request):
     return JsonResponse(r)
 
 
-DB_CONNECT_STRING = 'mysql+pymysql://liuchao:1234@localhost/jollyhers?charset=utf8mb4'
+DB_CONNECT_STRING = 'mysql+pymysql://liuchao:1234@192.168.220.130/jollyhers?charset=utf8mb4'
 
 table_sale_orders = "sale_orders"
 table_sale_order_products = "sale_order_products"
