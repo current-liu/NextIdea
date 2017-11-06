@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'demo/css/style.css' %}"/>
+    <script type="text/javascript" src="{% static 'demo/js/jquery-3.2.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'demo/js/demo.js' %}"></script>
+    <script type="text/javascript" src="{% static 'demo/js/base.js' %}"></script>
+
+
+</head>
+<body>
+
+<div>
+    <button onclick="fun()">ajax</button>
+</div>
+<!--<form action="http://192.168.220.130:8000/demo/str_to_table">-->
+<div>
+
+    <!--<input type="textarea" name="str" value="str">-->
+    <textarea cols="80" rows="5" id='s1' name="s2"></textarea>
+    <br>
+    <!--<input type="submit" value="Submit">-->
+    <button onclick="str_to_table()">str_to_table</button>
+</div>
+
+
+</body>
+</html>
