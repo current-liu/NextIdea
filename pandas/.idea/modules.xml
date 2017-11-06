@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Jollyhers/.idea/Jollyhers.iml" filepath="$PROJECT_DIR$/../Jollyhers/.idea/Jollyhers.iml" />
       <module fileurl="file://$PROJECT_DIR$/../anaysis/.idea/anaysis.iml" filepath="$PROJECT_DIR$/../anaysis/.idea/anaysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jcz_old/.idea/jcz.iml" filepath="$PROJECT_DIR$/../jcz_old/.idea/jcz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jcz/.idea/jcz.iml" filepath="$PROJECT_DIR$/../jcz/.idea/jcz.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../KeyStone/Django/maxims/.idea/maxims.iml" filepath="$PROJECT_DIR$/../../KeyStone/Django/maxims/.idea/maxims.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pandas.iml" filepath="$PROJECT_DIR$/.idea/pandas.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pydata-book/.idea/pydata-book.iml" filepath="$PROJECT_DIR$/../pydata-book/.idea/pydata-book.iml" />

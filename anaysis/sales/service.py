@@ -142,6 +142,8 @@ def get_product_sale_info(request):
     product_sales_count = pd.pivot_table(product_count_in_paid, values=['quantity', 'amount'], index='sku',aggfunc=np.sum)
     product_sales_count.columns = ['paid_amount', 'paid_quantity']
     product_sales_count.reset_index(inplace=True)
+
+    # result: decimals
     res = pd.merge(product_count_in_ordered, product_sales_count)
     res['ordered_to_paid'] = res['paid_quantity']/res['ordered_quantity']
     decimals = pd.Series([2, 2], index=['paid_amount', 'ordered_to_paid'])
