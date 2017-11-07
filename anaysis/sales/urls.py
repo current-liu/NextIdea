@@ -18,6 +18,7 @@ urlpatterns = [
     url(r'^get_product_added_into_cart/$', service.get_product_added_into_cart, name='get_product_added_into_cart'),
     url(r'^get_product_basic_info/$', service.get_product_basic_info, name='get_product_basic_info'),
     url(r'^get_product_sale_info/$', service.get_product_sale_info, name='get_product_sale_info'),
+    url(r'^anaysis_sale/$', service.anaysis_sale, name='anaysis_sale'),
 
 
 ]
