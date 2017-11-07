@@ -5,8 +5,6 @@
 from __future__ import unicode_literals
 
 from django.http import HttpResponse, JsonResponse
-from django.views import generic
-from django.core import serializers
 
 __author__ = 'liuchao'
 __version__ = '1.0'
@@ -15,8 +13,6 @@ __version__ = '1.0'
 def ajax(request):
     n = request.GET.get("id")
     print n
-    ret = {'status': True, 'error': "null"}
-    l = [1, 2, 3, 4, 5]
     r = {"l": n}
 
     return JsonResponse(r)
@@ -28,12 +24,10 @@ def str_to_table(request):
     print rows
     table = []
     for row in rows:
-
         col_list = cols_to_dict(row)
-
         table.append(col_list)
 
-    return JsonResponse(table , safe=False)
+    return JsonResponse(table, safe=False)
 
 
 def cols_to_dict(row):
@@ -41,9 +35,12 @@ def cols_to_dict(row):
     col_list = []
 
     for col in cols:
-
         col_list.append(col)
 
-    # del col_list['col0']
-    # del col_list['col' + str(m - 1)]
+    del col_list[0]
+    try:
+        del col_list[-1]
+    except Exception:
+        print "del col_list[-1] fail"
+
     return col_list
