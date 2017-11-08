@@ -167,7 +167,11 @@ def get_product_sale_info(request):
 
 
 def anaysis_sale(request):
-    product_id = request.GET.get('product_id')
+    try:
+        product_id = int(request.GET.get('product_id'))
+    except:
+        product_id = None
+
     try:
         manufacturer_id = int(request.GET.get('manufacturer_id'))
     except:
@@ -234,7 +238,7 @@ def anaysis_product_added_into_cart(time_begin, time_end, product_id_list):
         product_count_in_cart = cart_1
         product_count_in_order = sale_orders_info
     else:
-        cart_1 = cart_1.set_index(['created_at'], drop=False)
+        cart_1 = cart_1.set_index(['created_at'])
         product_count_in_cart = cart_1[time_begin:time_end].reset_index()
 
         # sale_orders_info['created_at'] = sale_orders_info['created_at'].astype('datetime64[ns]')
@@ -258,8 +262,11 @@ def anaysis_product_added_into_cart(time_begin, time_end, product_id_list):
 
 def anaysis_product_sale_info(time_begin, time_end, product_id_list):
     """Function: in specific period,product turned into pay status"""
-    sale_orders_period = sale_orders.set_index(['created_at'])
-    sale_orders_period = sale_orders_period[time_begin:time_end]
+    if (time_begin is None) | (time_end is None):
+        sale_orders_period = sale_orders
+    else:
+        sale_orders_period = sale_orders.set_index(['created_at'])
+        sale_orders_period = sale_orders_period[time_begin:time_end].reset_index()
 
     sale_orders_products_1 = sale_orders_products[sale_orders_products['product_id'].isin(product_id_list)]
     sale_orders_products_1['amount'] = sale_orders_products_1['price'] * sale_orders_products_1['quantity']
