@@ -214,6 +214,10 @@ def anaysis_sale(request):
     sku_list = catalog_product_info['sku']
     product_added_into_cart = anaysis_product_added_into_cart(time_begin, time_end, sku_list)
     product_sale_info = anaysis_product_sale_info(time_begin, time_end, sku_list)
+    res = pd.merge(catalog_product_info, pd.merge(product_added_into_cart, product_sale_info))
+
+    decimals = pd.Series([2, 2], index=['paid_amount', 'ordered_to_paid'])
+    return JsonResponse(res.round(decimals).to_dict('index'), safe=False)
 
 
 def anaysis_product_added_into_cart(time_begin, time_end, sku_list):
@@ -244,21 +248,20 @@ def anaysis_product_added_into_cart(time_begin, time_end, sku_list):
     product_count_added_in_cart = product_count_in_cart_mini.add(product_count_in_order_mini, fill_value=0)
 
     product_count_added_in_cart.reset_index(inplace=True)
-    product_count_added_in_cart.columns = ['sku',"orderd_quantity"]
+    product_count_added_in_cart.columns = ['sku', "cart_quantity"]
     # print product_count_added_in_cart
     return product_count_added_in_cart
 
 
-def anaysis_product_sale_info(request):
+def anaysis_product_sale_info(time_begin, time_end, sku_list):
     """Function: in specific period,product turned into pay status"""
-    time_begin = request.GET.get('t1')
-    time_end = request.GET.get('t2')
-
     sale_orders_period = sale_orders.set_index(['created_at'])
     sale_orders_period = sale_orders_period[time_begin:time_end]
-    sale_orders_products['amount'] = sale_orders_products['price'] * sale_orders_products['quantity']
-    sale_orders_info = pd.merge(sale_orders_period, sale_orders_products, how='inner', left_on='id',
-                                right_on='order_id')
+
+    sale_orders_products_1 = sale_orders_products[sale_orders_products['sku'].isin(sku_list)]
+    sale_orders_products_1['amount'] = sale_orders_products_1['price'] * sale_orders_products_1['quantity']
+
+    sale_orders_info = pd.merge(sale_orders_period, sale_orders_products_1, left_on='id', right_on='order_id')
 
     # result: in pay
 
@@ -266,7 +269,12 @@ def anaysis_product_sale_info(request):
         (sale_orders_info['status'] == 'Paid') | (sale_orders_info['status'] == 'Paid Processing') | (
             sale_orders_info['status'] == 'Shipping') | (
             sale_orders_info['status'] == 'Issue')].sort_values('sku')
+
+    status_list = ['Paid', 'Paid Processing', 'Shipping', 'Issue']
+    product_count_in_ordered = sale_orders_info[sale_orders_info['status'].isin(status_list)]
+    print product_count_in_ordered
     product_count_in_ordered = product_count_in_ordered[['sku', 'quantity']].groupby(by='sku').sum()
+    print product_count_in_ordered
     product_count_in_ordered.reset_index(inplace=True)
     product_count_in_ordered.columns = ['sku', 'ordered_quantity']
     # dict_product_count_in_paying = product_count_in_ordered.reset_index().to_dict('index')
@@ -287,6 +295,7 @@ def anaysis_product_sale_info(request):
     # result: decimals
     res = pd.merge(product_count_in_ordered, product_sales_count)
     res['ordered_to_paid'] = res['paid_quantity'] / res['ordered_quantity']
-    decimals = pd.Series([2, 2], index=['paid_amount', 'ordered_to_paid'])
-    r = res.round(decimals).to_dict('index')
-    return JsonResponse(r, safe=False)
+    # decimals = pd.Series([2, 2], index=['paid_amount', 'ordered_to_paid'])
+    # r = res.round(decimals).to_dict('index')
+    # return JsonResponse(r, safe=False)
+    return res
