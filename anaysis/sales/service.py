@@ -216,12 +216,26 @@ def anaysis_sale(request):
         pass
 
     product_id_list = catalog_product_info['product_id']
+
+    if product_id_list.empty:
+        return JsonResponse({"0": {"product_id": -1,"msg":"nothing found"}})
+
     product_added_into_cart = anaysis_product_added_into_cart(time_begin, time_end, product_id_list)
     product_sale_info = anaysis_product_sale_info(time_begin, time_end, product_id_list)
-    res = pd.merge(catalog_product_info, pd.merge(product_added_into_cart, product_sale_info))
+
+    if product_added_into_cart.empty:
+        res = catalog_product_info
+    else:
+        res = pd.merge(catalog_product_info, product_added_into_cart)
+
+    if product_sale_info.empty:
+        pass
+    else:
+        res = pd.merge(res, product_sale_info)
 
     decimals = pd.Series([2, 2], index=['paid_amount', 'ordered_to_paid'])
-    return JsonResponse(res.round(decimals).to_dict('index'), safe=False)
+    r = res.round(decimals).to_dict('index')
+    return JsonResponse(r, safe=False)
 
 
 def anaysis_product_added_into_cart(time_begin, time_end, product_id_list):
@@ -238,7 +252,7 @@ def anaysis_product_added_into_cart(time_begin, time_end, product_id_list):
         product_count_in_cart = cart_1
         product_count_in_order = sale_orders_info
     else:
-        cart_1 = cart_1.set_index(['created_at'])
+        cart_1.set_index(['created_at'], inplace=True)
         product_count_in_cart = cart_1[time_begin:time_end].reset_index()
 
         # sale_orders_info['created_at'] = sale_orders_info['created_at'].astype('datetime64[ns]')
@@ -269,6 +283,8 @@ def anaysis_product_sale_info(time_begin, time_end, product_id_list):
         sale_orders_period = sale_orders_period[time_begin:time_end].reset_index()
 
     sale_orders_products_1 = sale_orders_products[sale_orders_products['product_id'].isin(product_id_list)]
+    if sale_orders_products_1.empty:
+        return sale_orders_products_1
     sale_orders_products_1['amount'] = sale_orders_products_1['price'] * sale_orders_products_1['quantity']
 
     sale_orders_info = pd.merge(sale_orders_period, sale_orders_products_1, left_on='id', right_on='order_id')
